@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Error Occures</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            
+             background-color: #FFDEE9;
+            background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%); 
+            /* background:/*linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)) , url("img5.jpg") ; */
+            background-size: cover;
+        }
+       .contant{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90vw;
+        height: 90vh;
+        flex-wrap: wrap;
+       }
+       @media (max-width: 900px) {
+             .contant{
+                flex-direction: row;
+             }
+       }
+       .bookmark{
+        display: flex;
+        gap: 20rem;
+        padding: 15px;
+        
+       }
+
+       a{
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      
+       }
+       .contant h1{
+        font-size: 19rem;
+        margin-left: 9rem;
+        transition: all 0.3 ease; 
+        
+        
+       }
+       .contant h1:hover{
+        /* transform: skew(25deg);  */
+        transform: rotate(25deg);
+       }
+       .contant h3{
+        padding: 20px;
+        font-size: 3rem;
+        
+       }
+       .para{
+        font-size: 17px;
+       }
+       .gobackhome{
+        width: 107px;
+        text-align: center;        
+        border: 2px solid black;
+        border-radius: 40px;
+        background-color: indianred;
+        box-shadow: 2px 1px 2px ;
+        /* text-transform: uppercase; */
+        transition: all 0.3 ease; 
+       }
+       .gobackhome:hover{
+        color: #fff;
+        background-color: #69a6ce;
+       }
+       .report{
+        width: 107px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: indianred;
+        box-shadow: 2px 1px 2px ;
+        transition: all 0.3 ease; 
+       
+       }
+       .report:hover{
+        color: #fff;
+        background-color: #69a6ce;
+       }
+    </style>
+</head>
+<body>
+   <div class="con">
+    <div class="minibox">
+        <div class="contant">
+           <h1>404 !</h1>
+           <h3>Opps! Page is not found</h3>
+           <div class="para">
+               <p>Sorry, the page you are looking for doesn't exist. if uou think 
+                   something is broken, report a probleam. </p>
+           </div>
+            <div class="bookmark">
+               <div class="gobackhome">
+                   <a href="#" style="color: white;">Go back home</a> 
+               </div>
+               <div class="report">
+                   <a href="#" style="color: azure;">Report</a>
+               </div>
+            </div>
+                   
+               
+            
+        </div>
+      </div>
+</div>
+   </div>
+
+         
+    
+    
+    
+</body>
+</html>
